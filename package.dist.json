@@ -1,0 +1,32 @@
+{
+    "name": "cpf-mask-ng2",
+    "version": "2.0.2",
+    "description": "Máscara de CPF para Angular.",
+    "main": "bundles/amazing.umd.js",
+    "module": "index.js",
+    "typings": "index.d.ts",
+    "keywords": [
+        "mascara",
+        "cpf",
+        "angular 2",
+        "ng2",
+        "mask"
+    ],
+    "author": "Charles Assunção",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/assuncaocharles/cpf-mask-ng2"
+    },
+    "homepage": "https://github.com/assuncaocharles/cpf-mask-ng2",
+    "bugs": {
+        "url": "https://github.com/assuncaocharles/cpf-mask-ng2/issues"
+    },
+    "peerDependencies": {
+        "@angular/core": "^2.4.0 || ^4.0.0",
+        "vanilla-masker": "^1.1.1"
+    },
+    "dependencies": {
+        "vanilla-masker": "^1.1.1"
+    }
+}

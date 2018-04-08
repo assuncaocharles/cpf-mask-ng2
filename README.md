@@ -13,7 +13,7 @@ Uma simples diretiva para gerar máscara de CPF
 Importe a diretiva dentro do módulo que deseja fazer uso:
 
 ```
-import { CPFMask } from 'cpf-mask-ng2/mask';
+import { CPFMask } from 'cpf-mask-ng2';
 ```
 
 E faça a sua declaração dentro do módulo:

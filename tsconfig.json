@@ -6,9 +6,17 @@
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+    "stripInternal": true,
     "declaration": true,
-    "outDir": "./mask",
+    "strictNullChecks": true,
+    "skipLibCheck": true,
+    "noImplicitAny": true,
+    "outDir": "./dist",
     "lib": ["es2015", "dom"]
+  },
+  "paths": {
+    "@angular/core": ["node_modules/@angular/core"],
+    "vanilla-masker": ["node_modules/vanilla-masker"]
   },
   "files": [
     "./src/index.ts"
