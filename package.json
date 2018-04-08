@@ -1,6 +1,6 @@
 {
   "name": "cpf-mask-ng2",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Máscara de CPF para Angular.",
   "main": "./mask/index.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "mascara",
     "cpf",
     "angular 2",
-    "ng2",    
+    "ng2",
     "mask"
   ],
   "repository": {
@@ -23,20 +23,22 @@
     "url": "https://github.com/assuncaocharles/cpf-mask-ng2.git"
   },
   "dependencies": {
-    "@angular/core": "~4.0.0",
+    "@angular/common": "^5.2.9",
+    "@angular/core": "^5.2.0",
     "@types/source-map": "^0.5.0",
     "core-js": "^2.4.1",
-    "rxjs": "5.0.1",
+    "npm": "^5.8.0",
+    "rxjs": "^5.5.8",
     "vanilla-masker": "^1.1.1",
     "zone.js": "^0.8.4"
   },
   "devDependencies": {
     "@angular/compiler": "^4.1.3",
-    "@angular/compiler-cli": "^4.1.3",
+    "@angular/compiler-cli": "^5.2.0",
     "@types/core-js": "^0.9.41",
     "@types/node": "^7.0.22",
     "rollup": "^0.41.6",
-    "typescript": "^2.3.3",
+    "typescript": "~2.5.3",
     "uglify-js": "^3.0.13"
   }
 }
