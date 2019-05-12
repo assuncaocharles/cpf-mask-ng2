@@ -1,5 +1,7 @@
 # Sobre
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/assuncaocharles/cpf-mask-ng2.svg)](https://greenkeeper.io/)
+
 Uma simples diretiva para gerar máscara de CPF
 
 ## Comportamento
