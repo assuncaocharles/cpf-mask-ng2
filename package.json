@@ -4,11 +4,12 @@
   "description": "Máscara de CPF para Angular.",
   "main": "./mask/index.js",
   "scripts": {
-    "prepublish": "tsc",
+    "prepublish": "npm run snyk-protect && tsc",
     "transpile": "ngc",
     "package": "rollup -c",
     "minify": "uglifyjs dist/bundles/amazing.umd.js --screw-ie8 --compress --mangle --comments --output dist/bundles/amazing.umd.min.js",
-    "build": "npm run transpile && npm run package && npm run minify"
+    "build": "npm run transpile && npm run package && npm run minify",
+    "snyk-protect": "snyk protect"
   },
   "author": "Charles Assunção",
   "license": "ISC",
@@ -34,7 +35,8 @@
     "npm": "^6.6.0",
     "rxjs": "^6.5.2",
     "vanilla-masker": "^1.1.1",
-    "zone.js": "^0.9.1"
+    "zone.js": "^0.9.1",
+    "snyk": "^1.230.5"
   },
   "devDependencies": {
     "@angular/common": "^7.2.15",
@@ -71,5 +73,6 @@
     "tslint": "^5.16.0",
     "typescript": "~3.4.5",
     "zone.js": "^0.9.1"
-  }
+  },
+  "snyk": true
 }
