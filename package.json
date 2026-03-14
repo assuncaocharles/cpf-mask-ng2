@@ -1,5 +1,5 @@
 {
-  "name": "cpf-mask-ng2",
+  "name": "cpf-masking-package",
   "version": "1.2.0",
   "description": "Máscara de CPF para Angular.",
   "main": "./mask/index.js",
